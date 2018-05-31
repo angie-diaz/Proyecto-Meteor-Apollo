@@ -17,7 +17,7 @@ class ResolutionForm extends Component{//componente que realiza ciertas aciones 
       }
     })
     // .then({data})=>{
-    .cath(error=>{
+    .catch((error)=>{
       console.log(error);
     });
   };
